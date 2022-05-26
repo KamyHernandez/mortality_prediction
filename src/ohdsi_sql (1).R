@@ -56,7 +56,7 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "postgres
                                                                 user = 'postgres',
                                                                 server = 'mimic-server.postgres.database.azure.com/mimic',
                                                                 port = 5432,
-                                                                password = 'securepass321.',
+                                                                password = '******',
                                                                 pathToDriver=pathToDriver)
 
 
